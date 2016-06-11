@@ -1,0 +1,8 @@
+# General settings for mid-relay
+DirPort 9030 			  	# Directory Port
+ORPort 9001             	  	# Relay Port
+Nickname TORRELAYNAME		  	# Renay nickname
+ContactInfo contact<at>domain<dot>tld   # Contact informations
+Exitpolicy reject *:*
+RelayBandwidthRate 6500 KBytes    	# Limit bandwith of the relay
+RelayBandwidthBurst 7000 KBytes   	# Limit burst bandwith of the relay
